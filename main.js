@@ -46,4 +46,7 @@ function addData(){
     localStorage.username = username;
     localStorage.userpwd = pass;
     localStorage.usercms = cms;
+    alert("Registered Successfully!");
 }
+
+
