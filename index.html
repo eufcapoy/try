@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+       * {
+        padding: 0;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      header {
+        background-color: rgb(0, 0, 0);
+        height: 100px;
+      }
+      .header h1 {
+        color: #fcfcfc;
+      }
+      .header {
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .header ul li {
+        display: inline-block;
+        list-style: none;
+        padding: 5px 12px;
+        position: relative;
+        left: -20%;
+      }
+      .header ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 18px;
+        box-shadow: inset 0 0 0 0 #000000;
+        color: #ffffff;
+        padding: 0 1rem;
+        margin: 0 -0.25rem;
+        transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+      .header ul li a:hover {
+        color: rgb(0, 0, 0);
+        box-shadow: inset 500px 0 0 0 #fcfcfc;
+      }
+      .header img {
+        max-width: 100%;
+        width: 120px;
+        float: left;
+        border-radius: 10px;
+        position: absolute;
+        top: 1%;
+      }
+      .text-box {
+        width: 90%;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .text-box h1 {
+        font-size: 40px;
+      }
+      .button {
+        display: inline-block;
+        text-decoration: none;
+        padding: 12px 34px;
+        border: 2px solid #000000;
+        font-size: 18px;
+        position: relative;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #000000;
+      }
+      .button:hover {
+        opacity: 0.7;
+      }
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+      }
+      a.button1 {
+        border: 4px solid rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        background-color: rgb(238, 79, 79);
+        display: flex;
+        width: 60px;
+        padding: 8px 34px;
+        text-decoration: none;
+        position: absolute;
+        top: 5.5%;
+        left: 90%;
+        border-radius: 8px;
+      }
+      a.button2 {
+        border: 4px solid rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        background-color: rgb(238, 79, 79);
+        display: flex;
+        width: 60px;
+        padding: 8px 34px;
+        text-decoration: none;
+        position: absolute;
+        top: 0.3%;
+        left: 90%;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html"><img src="images/testlogo2.webp" alt="" /></a>
+        <h1></h1>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="shop.html">SHOP</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        <a href="signup.html" class="button1"><b>Register</b></a>
+        <a href="signin.html" class="button2"><b>Log In</b></a>
+      </div>
+    </header>
+    <hr />
+    <div class="text-box">
+      <h1>Welcome To My Portal</h1>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus enim,
+        aliquet nec egestas ac, fermentum ac mi. Aliquam convallis fermentum
+        ante quis ornare.<br> Nullam in vehicula justo. Aliquam imperdiet volutpat
+        ornare. Morbi fringilla tortor vitae lorem aliquet, ut dapibus ipsum
+        tempus. Nam eleifend dictum dolor, <br>quis pulvinar diam volutpat in. Cras
+        a volutpat urna. Duis interdum elit viverra pulvinar eleifend. Duis
+        accumsan varius eros, aliquet convallis tortor <br>vulputate sed. Nulla at
+        venenatis arcu, et tincidunt leo. Phasellus laoreet feugiat est, ut
+        accumsan felis venenatis id. <br>In egestas dui at urna cursus, vel
+        dignissim neque ultricies.
+      </p>
+      <br />
+      <a href="shop.html" class="button">Shop Now!</a>
+    </div>
+    <hr />
+    <footer>Copyright 2022 - Capoy</footer>
+  </body>
+</html>
